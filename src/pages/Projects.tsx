@@ -49,15 +49,17 @@ export const Projects = () => {
             style={{ backgroundImage: "url('/projects/ai-saas.png')" }}
             whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
           />
-          <h3> AI SaaS Platform</h3>
+          <h3>Smart Task Manager</h3>
           <p>
-            A modern SaaS platform built with Next.js and OpenAI integration,
-            featuring real-time AI-powered content generation and analytics.
+            A modern platform built with React + Vite and OpenAI, where you can manage
+            tasks using AI to boost productivity and organization.
           </p>
           <div className="project-tech">
-            <span>Next.js</span>
-            <span>OpenAI</span>
+            <span>React.js</span>
             <span>TailwindCSS</span>
+            <span>Shadcn</span>
+            <span>Typescript</span>
+            <span>OpenAI</span>
           </div>
         </motion.div>
 
@@ -74,15 +76,14 @@ export const Projects = () => {
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
           />
-          <h3>Social Media Dashboard</h3>
+          <h3>@daevel/uikit</h3>
           <p>
-            A comprehensive social media management dashboard with analytics,
-            scheduling, and engagement tracking features.
+            A library of reusable Angular components and styles to build
+            from scratch web applications quickly and efficiently.
           </p>
           <div className="project-tech">
-            <span>React</span>
-            <span>Node.js</span>
-            <span>MongoDB</span>
+            <span>Angular</span>
+            <span>Typescript</span>
           </div>
         </motion.div>
 
@@ -99,15 +100,16 @@ export const Projects = () => {
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
           />
-          <h3>Productivity Timer</h3>
+          <h3>BlogIT!</h3>
           <p>
-            A sleek productivity timer application with customizable work
-            sessions, statistics tracking, and dark mode support.
+            A platform where you can read and share articles on various topics,
+            based on your interests. Built with Angular, 
+            this app use the <b>@daevel/uikit</b> as main design system.
           </p>
           <div className="project-tech">
-            <span>React</span>
+            <span>Angular</span>
             <span>TypeScript</span>
-            <span>TailwindCSS</span>
+            <span>@daevel/uikit</span>
           </div>
         </motion.div>
       </motion.div>
