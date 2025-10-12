@@ -63,7 +63,7 @@ export const Hero = () => {
               View My Work
             </motion.a>
             <motion.a
-              href="#contacts"
+              href="#contact"
               className="cta-secondary"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -72,14 +72,11 @@ export const Hero = () => {
             </motion.a>
           </motion.div>
           <motion.div className="social-links" variants={staggerContainer}>
-            <motion.a href="https://github.com/Daev" target="_blank">
+            <motion.a href="https://github.com/Daevel" target="_blank">
               <i className="fab fa-github"> </i>
             </motion.a>
             <motion.a href="https://www.linkedin.com/in/luigi-avitabile-644ab2195/" target="_blank">
               <i className="fab fa-linkedin"> </i>
-            </motion.a>
-            <motion.a href="https://twitter.com" target="_blank">
-              <i className="fab fa-twitter"> </i>
             </motion.a>
           </motion.div>
         </motion.div>
@@ -109,8 +106,8 @@ export const Hero = () => {
   origin: "🌍 Somewhere between a coffee shop and a terminal",
   role: "Fullstack Web Sorcerer",
   stack: {
-    languages: ["JavaScript", "TypeScript", "SQL"],
-    frameworks: ["React", "Next.js", "TailwindCSS", "Supabase"],
+    languages: ["JavaScript", "TypeScript", "SQL", "Java"],
+    frameworks: ["Angular", "React", "TailwindCSS", "Supabase"],
   },
   traits: [
     "pixel-perfectionist",

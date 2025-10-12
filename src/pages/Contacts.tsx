@@ -8,7 +8,7 @@ const fadeInUp = {
   transition: { duration: 0.6 },
 };
 
-export const Contacts = () => {
+export const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
