@@ -105,12 +105,13 @@ export const Hero = () => {
               style={vscDarkPlus}
             >
               {`const aboutMe: DeveloperProfile = {
+  name: "Luigi Avitabile",
   codename: "Daevel",
-  origin: "Italy",
+  origin: "Italy 🇮🇹",
   role: "Full Stack Developer with a design passion oriented",
   stack: {
     languages: ["JavaScript", "TypeScript", "Java", "SQL"],
-    frameworks: ["Angular", "React", "TailwindCSS", "Node", "Supabase"],
+    frameworks: ["Angular", "React", "TailwindCSS", "Supabase"],
   },
   traits: [
     "pixel-perfectionist",
