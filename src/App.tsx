@@ -3,6 +3,7 @@ import { Navbar } from "./pages/Navbar";
 import { Hero } from "./pages/Hero";
 import { Projects } from "./pages/Projects";
 import { Contact } from "./pages/Contacts";
+import { SmartTaskManagerPage } from "./pages/SmartTaskManagerPage";
 import { useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
@@ -22,6 +23,7 @@ function App() {
       <Hero />
       <Projects />
       <Contact />
+      <SmartTaskManagerPage />
 
       <motion.footer
         className="footer"
