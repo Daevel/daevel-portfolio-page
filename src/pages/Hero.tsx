@@ -75,7 +75,10 @@ export const Hero = () => {
             <motion.a href="https://github.com/Daevel" target="_blank">
               <i className="fab fa-github"> </i>
             </motion.a>
-            <motion.a href="https://www.linkedin.com/in/luigi-avitabile-644ab2195/" target="_blank">
+            <motion.a
+              href="https://www.linkedin.com/in/luigi-avitabile-644ab2195/"
+              target="_blank"
+            >
               <i className="fab fa-linkedin"> </i>
             </motion.a>
           </motion.div>
@@ -103,11 +106,11 @@ export const Hero = () => {
             >
               {`const aboutMe: DeveloperProfile = {
   codename: "Daevel",
-  origin: "🌍 Somewhere between a coffee shop and a terminal",
-  role: "Fullstack Web Sorcerer",
+  origin: "Italy",
+  role: "Full Stack Developer with a design passion oriented",
   stack: {
-    languages: ["JavaScript", "TypeScript", "SQL", "Java"],
-    frameworks: ["Angular", "React", "TailwindCSS", "Supabase"],
+    languages: ["JavaScript", "TypeScript", "Java", "SQL"],
+    frameworks: ["Angular", "React", "TailwindCSS", "Node", "Supabase"],
   },
   traits: [
     "pixel-perfectionist",
@@ -117,7 +120,7 @@ export const Hero = () => {
   ],
   missionStatement:
     "Turning ideas into interfaces and bugs into feature",
-  availability: "Available for hire",
+  availability: "Available for new proposals",
 };`}
             </SyntaxHighlighter>
           </div>
