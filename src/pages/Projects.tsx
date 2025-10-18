@@ -53,7 +53,7 @@ export const Projects = () => {
           <motion.div
             className="project-image"
             style={{
-              backgroundImage: "url('public/assets/work-in-progress.png')",
+              backgroundImage: "url('assets/work-in-progress.png')",
               backgroundPosition: "center",
               backgroundSize: "contain",
               backgroundRepeat: "no-repeat",
@@ -84,7 +84,7 @@ export const Projects = () => {
           <motion.div
             className="project-image"
             style={{
-              backgroundImage: "url('public/assets/work-in-progress.png')",
+              backgroundImage: "url('assets/work-in-progress.png')",
               backgroundPosition: "center",
               backgroundSize: "contain",
               backgroundRepeat: "no-repeat",
@@ -114,7 +114,7 @@ export const Projects = () => {
           <motion.div
             className="project-image"
             style={{
-              backgroundImage: "url('public/assets/work-in-progress.png')",
+              backgroundImage: "url('assets/work-in-progress.png')",
               backgroundPosition: "center",
               backgroundSize: "contain",
               backgroundRepeat: "no-repeat",
