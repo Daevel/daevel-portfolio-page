@@ -1,38 +1,32 @@
 import "./App.css";
-import { Navbar } from "./pages/Navbar";
-import { Hero } from "./pages/Hero";
-import { Projects } from "./pages/Projects";
-import { Contact } from "./pages/Contacts";
-// import { SmartTaskManagerPage } from "./pages/SmartTaskManagerPage";
 import { useEffect, useState } from "react";
-import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
-import { Routes, Route } from "react-router-dom";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
     setIsLoaded(true);
-    emailjs.init(import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
   }, []);
 
   return (
     <div className={`app ${isLoaded ? "loaded" : ""}`}>
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <Navbar />
-              <Hero />
-              <Projects />
-              <Contact />
-            </>
-          }
-        />
-        {/* <Route path="/smart-task-manager" element={<SmartTaskManagerPage />} /> */}
-      </Routes>
+      <main className="maintenance-page" aria-labelledby="maintenance-title">
+        <motion.section
+          className="maintenance-card"
+          initial={{ opacity: 0, y: 24 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, ease: "easeOut" }}
+        >
+          <p className="maintenance-label">Website paused</p>
+          <h1 id="maintenance-title">We are building something better.</h1>
+          <p className="maintenance-copy">
+            This website and all of its pages are temporarily unavailable while
+            we prepare a new version.
+          </p>
+          <p className="maintenance-note">We will be back online soon.</p>
+        </motion.section>
+      </main>
 
       <motion.footer
         className="footer"
